@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_game_of_life_1685086970577-push-trigger-input-set
+  identifier: Build_game_of_life_1685086970577pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: pythondemo
+  pipeline:
+    identifier: Build_game_of_life_1685086970577
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
